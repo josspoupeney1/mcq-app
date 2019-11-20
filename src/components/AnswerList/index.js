@@ -8,7 +8,7 @@ class AnswerList extends React.Component {
   render(){
     return(
       <div>
-        {this.props.list.map(answer => <div><input type="radio">{answer}</input></div>)}
+        {this.props.list.map(answer => <div> {answer} <input name="question" type="radio" /></div>)}
       </div>
    )
   }

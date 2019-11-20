@@ -10,8 +10,7 @@ class Identity extends React.Component {
       color: 'black',
       margin: '10px',
       paddingLeft: '20px',
-      textAlign: 'left',
-      border: '1px solid black'
+      textAlign: 'left'
     }
     return (
       <div style={styleIdentity}>

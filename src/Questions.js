@@ -1,5 +1,15 @@
 const Questions = [{
-  "label": "Quelle est la meilleure marque de telephone ?",
+  "label": "What is the best phone brand?",
+  "list": [
+    "Apple",
+    "Samsung",
+    "Sony",
+    "LG"
+  ],
+  "correct": 0
+},
+{
+  "label": "What is the best watch brand?",
   "list": [
     "Apple",
     "Samsung",

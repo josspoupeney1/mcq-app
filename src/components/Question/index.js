@@ -9,12 +9,11 @@ class Question extends React.Component {
     const styleQuestion = {
       color: 'black',
       margin: '10px',
-      paddingLeft: '20px',
-      border: '1px solid black',
+      paddingLeft: '20px'
     }
     return(
     <div style={styleQuestion}>
-       {this.props.label}
+       {this.props.label} ({this.props.number}/{this.props.total})
     </div>
   )
 }

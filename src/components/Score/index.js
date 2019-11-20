@@ -10,8 +10,7 @@ class Score extends React.Component {
       color: 'Black',
       margin: '30px',
       paddingRight: '40px',
-      textAlign: 'right',
-      border: '1px solid black'
+      textAlign: 'right'
     }
     return(
       <div style={styleScore}>
