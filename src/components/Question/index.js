@@ -10,7 +10,7 @@ class Question extends React.Component {
       color: 'black',
       margin: '10px',
       paddingLeft: '20px',
-      border: '1px solid white',
+      border: '1px solid black',
     }
     return(
     <div style={styleQuestion}>
