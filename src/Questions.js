@@ -1,22 +1,22 @@
 const Questions = [{
-  "label": "What is the best phone brand?",
+  "label": "What is the API used to connect an application to Symphony?",
   "list": [
-    "Apple",
-    "Samsung",
-    "Sony",
-    "LG"
+    "REST API",
+    "Extension API",
+    "Symphony API",
+    "Java SDK"
   ],
-  "correct": 0
+  "correct": "Extension API"
 },
 {
-  "label": "What is the best watch brand?",
+  "label": "What is the API to send a message into a chatroom?",
   "list": [
-    "Apple",
-    "Samsung",
-    "Sony",
-    "LG"
+    "sendMessage()",
+    "pushMessage()",
+    "addMessage()",
+    "createMessage()"
   ],
-  "correct": 0
+  "correct": "createMessage()"
 }]
 
 export default Questions
