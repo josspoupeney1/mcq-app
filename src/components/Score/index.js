@@ -7,15 +7,18 @@ class Score extends React.Component {
   }
   render(){
     const styleScore = {
-      color: 'Black',
-      margin: '30px',
-      paddingRight: '40px',
-      textAlign: 'right',
-      border: '1px solid black'
+      color: 'white',
+      marginLeft: 'auto',
+      marginRight: '30px',
+      lineHeight: '100px',
+      textAlign: 'center',
+      height: '100px',
+      width: '100px',
+      background: ((this.props.score/this.props.total)*100<75) ? '#f1141c' : '#04e204'
     }
     return(
       <div style={styleScore}>
-       20/20
+        {(this.props.score/this.props.total)*100}%
       </div>
    )
  }

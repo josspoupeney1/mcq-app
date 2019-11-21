@@ -11,12 +11,11 @@ class Identity extends React.Component {
       margin: '10px',
       paddingLeft: '20px',
       textAlign: 'left',
-      border: '1px solid black'
     }
     return (
       <div style={styleIdentity}>
-      LeBron
       James
+      Smith
       </div>
    )
   }
